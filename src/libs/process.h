@@ -42,7 +42,7 @@
 #	include <stdlib.h>
 #	include <string.h>
 #	if defined(__linux__)
-#		include <bsd/unistd.h>
+#		include <unistd.h>
 #	elif (defined(__FreeBSD__) || defined(__DragonFly__))
 //#		include <unistd.h>
 //#		include <sys/types.h>
